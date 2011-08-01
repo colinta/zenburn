@@ -18,11 +18,11 @@
 				<key>foreground</key>
 				<string>#DEDEDE</string>
 				<key>invisibles</key>
-				<string>#A5A5A580</string>
+				<string>#A5A5A552</string>
 				<key>lineHighlight</key>
 				<string>#30303052</string>
 				<key>selection</key>
-				<string>#83838382</string>
+				<string>#8383833B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -175,7 +175,7 @@
 			<key>name</key>
 			<string>Language Control Keyword</string>
 			<key>scope</key>
-			<string>keyword.control</string>
+			<string>keyword.control , meta.selector.css , entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -201,7 +201,7 @@
 			<key>name</key>
 			<string>Operators</string>
 			<key>scope</key>
-			<string>keyword.operator</string>
+			<string>keyword.operator , punctuation - punctuation.definition.comment</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -234,7 +234,7 @@
 			<key>name</key>
 			<string>Storage Types</string>
 			<key>scope</key>
-			<string>storage.type,storage.modifier</string>
+			<string>storage.type , storage.modifier , support.type</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -266,7 +266,7 @@
 			<key>name</key>
 			<string>Type name</string>
 			<key>scope</key>
-			<string>entity.name.type,entity.other</string>
+			<string>entity.name.type , entity.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -290,7 +290,7 @@
 			<key>name</key>
 			<string>Type name</string>
 			<key>scope</key>
-			<string>storage.type.user-defined</string>
+			<string>storage.type.user-defined , meta.property-list</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -301,7 +301,7 @@
 			<key>name</key>
 			<string>Class type name</string>
 			<key>scope</key>
-			<string>entity.name.type</string>
+			<string>entity.name.type,entity.other.attribute-name.class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
