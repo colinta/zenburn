@@ -1,1 +1,1 @@
-![Zenburn Demo](http://echonull.colinta.com/img/zenburn-demo.png "Zenburn Demo")
+![Zenburn Demo](http://i.imgur.com/7xpbK.png "Zenburn Demo")
