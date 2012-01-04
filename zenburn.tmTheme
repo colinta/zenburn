@@ -20,9 +20,9 @@
 				<key>invisibles</key>
 				<string>#A5A5A552</string>
 				<key>lineHighlight</key>
-				<string>#30303052</string>
+				<string>#303030</string>
 				<key>selection</key>
-				<string>#8383833B</string>
+				<string>#8383839C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -36,6 +36,19 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#87AE86</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>preprocessor</string>
+			<key>scope</key>
+			<string>meta.preprocessor.c</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FD8003</string>
 			</dict>
 		</dict>
 		<dict>
@@ -305,7 +318,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>underline</string>
+				<string></string>
 				<key>foreground</key>
 				<string>#F4A020</string>
 			</dict>
