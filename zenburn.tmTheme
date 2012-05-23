@@ -388,7 +388,7 @@
 			<key>name</key>
 			<string>variable</string>
 			<key>scope</key>
-			<string>variable.parameter, variable.other</string>
+			<string>variable, variable.parameter, variable.other</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
