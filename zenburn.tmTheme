@@ -66,13 +66,15 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>/*, #, //</string>
+			<string>comment punctuation (/*, #, //)</string>
 			<key>scope</key>
 			<string>punctuation.definition.comment</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
+				<key>foreground</key>
+				<string>#a0cfa1</string>
 			</dict>
 		</dict>
 		<dict>
