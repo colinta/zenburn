@@ -429,7 +429,7 @@
 			<key>name</key>
 			<string>function/method</string>
 			<key>scope</key>
-			<string>support.function,meta.function-call</string>
+			<string>support.function,meta.function-name,entity.name.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
