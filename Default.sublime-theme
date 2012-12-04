@@ -256,7 +256,7 @@
     },
     {
         "class": "table_row",
-        "layer0.texture": "Theme - Default/row_highlight_wide.png",
+        "layer0.texture": "Theme - Default/row_highlight_dark.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -370,6 +370,7 @@
         "selected_bg": [64, 64, 64, 255]
     },
     {
+
         "class": "mini_quick_panel_row",
         "layer0.texture": "Theme - Default/panel_row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
