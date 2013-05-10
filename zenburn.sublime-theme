@@ -1685,5 +1685,22 @@
         "color": [210, 210, 210],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 1]
+    },
+    // dialog and progress bars
+    {
+        "class": "progress_bar_control",
+        "layer0.tint": [32, 32, 32],
+        "layer0.opacity": 1.0,
+    },
+    {
+        "class": "progress_gauge_control",
+        "layer0.tint": [43, 102, 201],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "dialog",
+        "layer0.tint": [64, 64, 64],
+        "layer0.opacity": 1.0
     }
 ]
