@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Jani Nurminen.  Adapted and modified by Colin Thomas-Arnold and William D. Neumann</string>
+	<string>Jani Nurminen.  Adapted and modified by Colin T.A. Gray and William D. Neumann</string>
 	<key>name</key>
 	<string>zenburn</string>
 	<key>settings</key>
