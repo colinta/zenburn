@@ -700,6 +700,41 @@
 				<string>#FFFFFF5E</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>markdown inline code</string>
+			<key>scope</key>
+			<string>markup.raw.inline.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FED6AF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markdown heading</string>
+			<key>scope</key>
+			<string>markup.heading.markdown,punctuation.definition.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markdown list</string>
+			<key>scope</key>
+			<string>markup.list</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DEDEDE</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>A34A7407-68B9-48E5-883E-E551F7561026</string>
