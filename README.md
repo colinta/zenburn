@@ -27,3 +27,14 @@ Sublime Text, and Xcode.
 # TextMate
 
 ###### zenburn.tmTheme
+
+# Xcode
+
+###### zenburn.dvtcolortheme
+
+```bash
+mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes
+cp zenburn.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes
+```
+
+![Zenburn Xcode Demo](http://colinta.com/static/image/zenburn/xcode.png "Zenburn Xcode Demo")
