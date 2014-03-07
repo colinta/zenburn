@@ -68,7 +68,7 @@
 			<key>name</key>
 			<string>comment punctuation (/*, #, //)</string>
 			<key>scope</key>
-			<string>punctuation.definition.comment</string>
+			<string>punctuation.definition.comment, punctuation.whitespace.comment</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -177,20 +177,7 @@
 			<key>name</key>
 			<string>Language Keyword</string>
 			<key>scope</key>
-			<string>keyword</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#FED6AF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Language Control Keyword</string>
-			<key>scope</key>
-			<string>keyword.control , meta.selector.css , entity.other.attribute-name</string>
+			<string>keyword, keyword.control , meta.selector.css , entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -216,11 +203,11 @@
 			<key>name</key>
 			<string>Operators</string>
 			<key>scope</key>
-			<string>keyword.operator , punctuation - punctuation.definition.comment</string>
+			<string>keyword.operator , punctuation.definition.tag , punctuation - punctuation.definition.comment - punctuation.definition</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FEFED6</string>
+				<string>#D0D1A8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -422,7 +409,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FEFED6</string>
+				<string>#D0D1A8</string>
 			</dict>
 		</dict>
 		<dict>
