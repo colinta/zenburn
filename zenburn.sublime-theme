@@ -1685,5 +1685,17 @@
         "color": [210, 210, 210],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 1]
+    },
+    {
+        "class": "icon_file_type",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder_loading",
+        "content_margin": [0,0]
     }
 ]
