@@ -40,7 +40,7 @@
 			<key>name</key>
 			<string>preprocessor</string>
 			<key>scope</key>
-			<string>meta.preprocessor.c</string>
+			<string>meta.preprocessor.c, meta.preprocessor.macro.c</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
