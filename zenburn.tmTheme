@@ -152,7 +152,7 @@
 			<key>name</key>
 			<string>Number</string>
 			<key>scope</key>
-			<string>constant.numeric</string>
+			<string>support.constant.numeric, constant.numeric</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -163,7 +163,7 @@
 			<key>name</key>
 			<string>Built-in constant</string>
 			<key>scope</key>
-			<string>constant.language, support.constant.core</string>
+			<string>constant.language, support.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -176,7 +176,7 @@
 			<key>name</key>
 			<string>User-defined constant</string>
 			<key>scope</key>
-			<string>constant.character, constant.other, support.constant</string>
+			<string>constant.character, constant.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
