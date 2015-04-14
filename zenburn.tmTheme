@@ -185,9 +185,31 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Other constant</string>
+			<key>scope</key>
+			<string>variable.other.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D6D6AE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Language Keyword</string>
 			<key>scope</key>
 			<string>keyword, keyword.control , meta.selector.css , entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FED6AF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Instance Variable</string>
+			<key>scope</key>
+			<string>variable.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -369,17 +391,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#898989</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>variable</string>
-			<key>scope</key>
-			<string>variable, variable.parameter, variable.other</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FED6AF</string>
 			</dict>
 		</dict>
 		<dict>
