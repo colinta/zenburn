@@ -163,7 +163,7 @@
 			<key>name</key>
 			<string>Built-in constant</string>
 			<key>scope</key>
-			<string>constant.language, support.constant</string>
+			<string>constant, support.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -209,7 +209,7 @@
 			<key>name</key>
 			<string>Instance Variable</string>
 			<key>scope</key>
-			<string>variable.other</string>
+			<string>variable.other.readwrite.instance</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
