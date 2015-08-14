@@ -40,11 +40,11 @@
 			<key>name</key>
 			<string>preprocessor</string>
 			<key>scope</key>
-			<string>meta.preprocessor.c, meta.preprocessor.macro.c</string>
+			<string>meta.preprocessor, punctuation.definition.preprocessor</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FD8003</string>
+				<string>#E8BC92</string>
 			</dict>
 		</dict>
 		<dict>
