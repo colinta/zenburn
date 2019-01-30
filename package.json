@@ -7,7 +7,7 @@
   "details": "https://github.com/colinta/zenburn",
   "releases": [
     {
-      "sublime_text": "*",
+      "sublime_text": ">=3000",
       "details": "https://github.com/colinta/zenburn/tags"
     }
   ]
