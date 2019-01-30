@@ -329,7 +329,7 @@
 			<key>name</key>
 			<string>Class type name</string>
 			<key>scope</key>
-			<string>entity.name.type , entity.name.type.class , entity.other.attribute-name.class.css , support.class</string>
+			<string>entity.name.type , entity.name.type.class , entity.other.attribute-name.class.css , support.class , entity.name.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
