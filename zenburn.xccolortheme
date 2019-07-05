@@ -25,15 +25,71 @@
 	<key>DVTConsoleTextBackgroundColor</key>
 	<string>0.22204 0.222068 0.222022 1</string>
 	<key>DVTConsoleTextInsertionPointColor</key>
-	<string>0 0 0 1</string>
+	<string>0.94 0.94 0.94 1</string>
 	<key>DVTConsoleTextSelectionColor</key>
 	<string>0.733154 0.772336 0.830945 1</string>
 	<key>DVTDebuggerInstructionPointerColor</key>
 	<string>0.705792 0.8 0.544 1</string>
+	<key>DVTFontAndColorVersion</key>
+	<integer>1</integer>
+	<key>DVTLineSpacing</key>
+	<real>1.1000000238418579</real>
+	<key>DVTMarkupTextBackgroundColor</key>
+	<string>0.284277 0.284303 0.28426 1</string>
+	<key>DVTMarkupTextBorderColor</key>
+	<string>0.341535 0.341558 0.341519 1</string>
+	<key>DVTMarkupTextCodeFont</key>
+	<string>UbuntuMono-Regular - 17.0</string>
+	<key>DVTMarkupTextEmphasisColor</key>
+	<string>0.868401 0.868508 0.868328 1</string>
+	<key>DVTMarkupTextEmphasisFont</key>
+	<string>.SFNS-RegularItalic - 17.0</string>
+	<key>DVTMarkupTextInlineCodeColor</key>
+	<string>0.868401 0.868508 0.868328 0.7</string>
+	<key>DVTMarkupTextLinkColor</key>
+	<string>0.84147 0.523868 0.525584 1</string>
+	<key>DVTMarkupTextLinkFont</key>
+	<string>.SFNS-Regular - 17.0</string>
+	<key>DVTMarkupTextNormalColor</key>
+	<string>0.868401 0.868508 0.868328 1</string>
+	<key>DVTMarkupTextNormalFont</key>
+	<string>.SFNS-Regular - 17.0</string>
+	<key>DVTMarkupTextOtherHeadingColor</key>
+	<string>0.868401 0.868508 0.868328 0.5</string>
+	<key>DVTMarkupTextOtherHeadingFont</key>
+	<string>.SFNS-Regular - 23.8</string>
+	<key>DVTMarkupTextPrimaryHeadingColor</key>
+	<string>0.868401 0.868508 0.868328 1</string>
+	<key>DVTMarkupTextPrimaryHeadingFont</key>
+	<string>.SFNS-Regular - 40.8</string>
+	<key>DVTMarkupTextSecondaryHeadingColor</key>
+	<string>0.868401 0.868508 0.868328 1</string>
+	<key>DVTMarkupTextSecondaryHeadingFont</key>
+	<string>.SFNS-Regular - 30.6</string>
+	<key>DVTMarkupTextStrongColor</key>
+	<string>0.868401 0.868508 0.868328 1</string>
+	<key>DVTMarkupTextStrongFont</key>
+	<string>.SFNS-Bold - 17.0</string>
+	<key>DVTScrollbarMarkerAnalyzerColor</key>
+	<string>0.403922 0.372549 1 1</string>
+	<key>DVTScrollbarMarkerBreakpointColor</key>
+	<string>0.290196 0.290196 0.968627 1</string>
+	<key>DVTScrollbarMarkerDiffColor</key>
+	<string>0.556863 0.556863 0.556863 1</string>
+	<key>DVTScrollbarMarkerDiffConflictColor</key>
+	<string>0.968627 0.290196 0.290196 1</string>
+	<key>DVTScrollbarMarkerErrorColor</key>
+	<string>0.968627 0.290196 0.290196 1</string>
+	<key>DVTScrollbarMarkerRuntimeIssueColor</key>
+	<string>0.643137 0.509804 1 1</string>
+	<key>DVTScrollbarMarkerWarningColor</key>
+	<string>0.937255 0.717647 0.34902 1</string>
 	<key>DVTSourceTextBackground</key>
 	<string>0.22204 0.222068 0.222022 1</string>
 	<key>DVTSourceTextBlockDimBackgroundColor</key>
 	<string>0.5 0.5 0.5 1</string>
+	<key>DVTSourceTextCurrentLineHighlightColor</key>
+	<string>0.294961 0.294982 0.294948 0.8775</string>
 	<key>DVTSourceTextInsertionPointColor</key>
 	<string>0.940217 0.940217 0.940217 1</string>
 	<key>DVTSourceTextInvisiblesColor</key>
@@ -52,6 +108,10 @@
 		<string>0.527689 0.681316 0.524567 1</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
 		<string>0.527689 0.681316 0.524567 1</string>
+		<key>xcode.syntax.declaration.other</key>
+		<string>0.839816 0.839919 0.839745 1</string>
+		<key>xcode.syntax.declaration.type</key>
+		<string>0.959045 0.62751 0.124533 1</string>
 		<key>xcode.syntax.identifier.class</key>
 		<string>0.959045 0.62751 0.124533 1</string>
 		<key>xcode.syntax.identifier.class.system</key>
@@ -78,6 +138,10 @@
 		<string>0.868401 0.868508 0.868328 1</string>
 		<key>xcode.syntax.keyword</key>
 		<string>0.844685 0.839495 0.692115 1</string>
+		<key>xcode.syntax.mark</key>
+		<string>0.868401 0.868508 0.868328 1</string>
+		<key>xcode.syntax.markup.code</key>
+		<string>0.665 0.052 0.569 1</string>
 		<key>xcode.syntax.number</key>
 		<string>0.528248 0.839097 0.837696 1</string>
 		<key>xcode.syntax.plain</key>
@@ -92,51 +156,59 @@
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.character</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.comment</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
+		<key>xcode.syntax.declaration.other</key>
+		<string>UbuntuMono-Regular - 18.0</string>
+		<key>xcode.syntax.declaration.type</key>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
+		<key>xcode.syntax.mark</key>
+		<string>UbuntuMono-Regular - 18.0</string>
+		<key>xcode.syntax.markup.code</key>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.number</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.string</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 		<key>xcode.syntax.url</key>
-		<string>Monaco - 14.0</string>
+		<string>UbuntuMono-Regular - 18.0</string>
 	</dict>
 </dict>
 </plist>
