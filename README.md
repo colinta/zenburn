@@ -8,6 +8,8 @@ Sublime Text, and Xcode.
 
 # Sublime Text
 
+Install "zenburn" via Package Control, and open Preferences.  Use any theme you like, I found `Adaptive` works well:
+
 ###### Preferences.sublime-settings
 ```json
 {
