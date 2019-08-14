@@ -1,10 +1,10 @@
 Port of [Zenburn](http://slinky.imukuppi.org/zenburnpage/) to CSS, TextMate,
 Sublime Text, and Xcode.
 
-![Zenburn CSS Demo](http://colinta.com/static/image/zenburn/css.png "Zenburn CSS Demo")
-![Zenburn HTML Demo](http://colinta.com/static/image/zenburn/html.png "Zenburn HTML Demo")
-![Zenburn Python Demo](http://colinta.com/static/image/zenburn/python.png "Zenburn Python Demo")
-![Zenburn Ruby Demo](http://colinta.com/static/image/zenburn/ruby.png "Zenburn Ruby Demo")
+![Zenburn CSS Demo](http://media.colinta.com/zenburn/css.png "Zenburn CSS Demo")
+![Zenburn HTML Demo](http://media.colinta.com/zenburn/html.png "Zenburn HTML Demo")
+![Zenburn Python Demo](http://media.colinta.com/zenburn/python.png "Zenburn Python Demo")
+![Zenburn Ruby Demo](http://media.colinta.com/zenburn/ruby.png "Zenburn Ruby Demo")
 
 # Sublime Text
 
@@ -37,4 +37,4 @@ mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes
 cp zenburn.xccolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes
 ```
 
-![Zenburn Xcode Demo](http://colinta.com/static/image/zenburn/xcode.png "Zenburn Xcode Demo")
+![Zenburn Xcode Demo](http://media.colinta.com/zenburn/xcode.png "Zenburn Xcode Demo")
