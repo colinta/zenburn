@@ -12,7 +12,7 @@ Sublime Text, and Xcode.
 ```json
 {
     "color_scheme": "Packages/zenburn/zenburn.tmTheme",
-    "theme": "zenburn.sublime-theme"
+    "theme": "Adaptive.sublime-theme"
 }
 ```
 

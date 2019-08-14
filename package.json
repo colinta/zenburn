@@ -2,9 +2,8 @@
   "name": "zenburn",
   "description": "Zenburn color scheme.",
   "author": "Colin T.A. Gray (colinta)",
-  "homepage": "http://colinta.com/projects/zenburn_color_scheme.html",
+  "homepage": "https://github.com/colinta/zenburn",
   "labels": ["color scheme", "theme"],
-  "details": "https://github.com/colinta/zenburn",
   "releases": [
     {
       "sublime_text": ">=3000",
