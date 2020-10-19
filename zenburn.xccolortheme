@@ -5,23 +5,23 @@
 	<key>DVTConsoleDebuggerInputTextColor</key>
 	<string>0.868401 0.868508 0.868328 1</string>
 	<key>DVTConsoleDebuggerInputTextFont</key>
-	<string>UbuntuMono-Regular - 18.0</string>
+	<string>FiraCode-Regular - 18.0</string>
 	<key>DVTConsoleDebuggerOutputTextColor</key>
 	<string>0.868401 0.868508 0.868328 1</string>
 	<key>DVTConsoleDebuggerOutputTextFont</key>
-	<string>UbuntuMono-Regular - 18.0</string>
+	<string>FiraCode-Regular - 18.0</string>
 	<key>DVTConsoleDebuggerPromptTextColor</key>
 	<string>1 0.982459 0.616637 1</string>
 	<key>DVTConsoleDebuggerPromptTextFont</key>
-	<string>UbuntuMono-Regular - 18.0</string>
+	<string>FiraCode-Regular - 18.0</string>
 	<key>DVTConsoleExectuableInputTextColor</key>
 	<string>0.868401 0.868508 0.868328 1</string>
 	<key>DVTConsoleExectuableInputTextFont</key>
-	<string>UbuntuMono-Regular - 18.0</string>
+	<string>FiraCode-Regular - 18.0</string>
 	<key>DVTConsoleExectuableOutputTextColor</key>
 	<string>0.868401 0.868508 0.868328 1</string>
 	<key>DVTConsoleExectuableOutputTextFont</key>
-	<string>UbuntuMono-Regular - 18.0</string>
+	<string>FiraCode-Regular - 18.0</string>
 	<key>DVTConsoleTextBackgroundColor</key>
 	<string>0.22204 0.222068 0.222022 1</string>
 	<key>DVTConsoleTextInsertionPointColor</key>
@@ -39,7 +39,7 @@
 	<key>DVTMarkupTextBorderColor</key>
 	<string>0.341535 0.341558 0.341519 1</string>
 	<key>DVTMarkupTextCodeFont</key>
-	<string>UbuntuMono-Regular - 18.0</string>
+	<string>FiraCode-Regular - 18.0</string>
 	<key>DVTMarkupTextEmphasisColor</key>
 	<string>0.868401 0.868508 0.868328 1</string>
 	<key>DVTMarkupTextEmphasisFont</key>
@@ -49,11 +49,11 @@
 	<key>DVTMarkupTextLinkColor</key>
 	<string>0.84147 0.523868 0.525584 1</string>
 	<key>DVTMarkupTextLinkFont</key>
-	<string>UbuntuMono-Regular - 17.0</string>
+	<string>FiraCode-Regular - 17.0</string>
 	<key>DVTMarkupTextNormalColor</key>
 	<string>0.868401 0.868508 0.868328 1</string>
 	<key>DVTMarkupTextNormalFont</key>
-	<string>UbuntuMono-Regular - 17.0</string>
+	<string>FiraCode-Regular - 17.0</string>
 	<key>DVTMarkupTextOtherHeadingColor</key>
 	<string>0.868401 0.868508 0.868328 0.5</string>
 	<key>DVTMarkupTextOtherHeadingFont</key>
