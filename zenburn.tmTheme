@@ -40,7 +40,7 @@
 			<key>name</key>
 			<string>preprocessor</string>
 			<key>scope</key>
-			<string>meta.preprocessor, punctuation.definition.preprocessor</string>
+			<string>punctuation.definition.preprocessor</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -198,7 +198,7 @@
 			<key>name</key>
 			<string>Language Keyword</string>
 			<key>scope</key>
-			<string>keyword, keyword.control , meta.selector.css , entity.other.attribute-name</string>
+			<string>keyword, keyword.control, entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -318,7 +318,7 @@
 			<key>name</key>
 			<string>Type name</string>
 			<key>scope</key>
-			<string>storage.type.user-defined , meta.property-list</string>
+			<string>storage.type.user-defined</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -419,7 +419,7 @@
 			<key>name</key>
 			<string>function/method</string>
 			<key>scope</key>
-			<string>support.function,meta.function-name,entity.name.function</string>
+			<string>support.function,entity.name.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -441,7 +441,7 @@
 			<key>name</key>
 			<string>braces</string>
 			<key>scope</key>
-			<string>meta.brace</string>
+			<string>punctuation.brace</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
