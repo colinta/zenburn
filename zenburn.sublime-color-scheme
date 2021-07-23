@@ -1,0 +1,344 @@
+{
+    "name": "Zenburn",
+    "author": "Jani Nurminen. Ported by Colin T.A. Gray, William D. Neumann, and Ryan Olson.",
+    "variables":
+    {
+    	"bg": "#3f3f3f",
+    	"fg": "#dedede",
+        "white": "#ffffff",
+        "gallery": "#efefef",
+        "parchment": "#f0efd0",
+        "tan": "#dfdfbf",
+        "gray": "#8f8f8f",
+        "lavender": "#c0bed1",
+        "mocha": "#bca3a3",
+        "coral": "#e89393",
+        "calico": "#dfaf8f",
+        "pale_chestnut": "#dca3a3",
+        "oriental_pink": "#cc9393",
+        "marsala": "#994c4c",
+        "peach": "#ffcfaf",
+        "navajo": "#ffd7a7",
+        "pale_goldenrod": "#f0dfaf",
+        "hampton": "#e3ceab",
+        "bone": "#dfcfaf",
+        "reef": "#c3bf9f",
+        "stark": "#cfbfaf",
+        "champagne": "#efdcbc",
+        "khaki": "#efef8f",
+        "goldenrod": "#efefaf",
+        "envy": "#7f9f7f",
+        "viridian": "#709080",
+        "monte_carlo": "#8cd0d3",
+        "amulet": "#82a282",
+        "blue_charcoal": "#000d18",
+    },
+    "globals":
+    {
+        "foreground": "var(fg)",
+        "background": "var(bg)",
+        "accent": "var(monte_carlo)",
+        "caret": "var(monte_carlo)",
+        "line_highlight": "#262626",
+        "selection": "#2f2f2f",
+        "selection_border": "#2f2f2f",
+        "inactive_selection": "#4f4f4f",
+        "misspelling": "var(coral)",
+        "shadow": "color(var(blue_charcoal) alpha(0.25))",
+        "active_guide": "var(monte_carlo)",
+        "highlight": "#f8f893",
+        "find_highlight_foreground": "#f8f893",
+        "find_highlight": "#385f38",
+        "brackets_options": "underline",
+        "brackets_foreground": "var(calico)",
+        "bracket_contents_options": "underline",
+        "bracket_contents_foreground": "var(fg)",
+        "tags_options": "stippled_underline",
+        "tags_foreground": "var(pale_chestnut)"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(envy)"
+        },
+        {
+            "name": "Constant",
+            "scope": "constant.language, support.constant, constant.other.color, entity.name.type.variant.ocaml, source.rust variable.language.rust, support.type.rust, source.elixir constant.other.symbol.elixir, source.elixir constant.other.symbol.elixir punctuation.definition.constant.elixir, source.elixir variable.language.elixir, source.elixir constant.other.keywords.elixir, source.ruby constant.other.symbol, source.ruby punctuation.definition.constant",
+            "foreground": "var(pale_chestnut)",
+            "font_style": "bold"
+        },
+        {
+            "name": "String",
+            "scope": "string, punctuation.definition.string.begin, punctuation.definition.string.end",
+            "foreground": "var(oriental_pink)"
+        },
+        {
+            "name": "Character",
+            "scope": "constant.character, source.scss keyword.operator.ampersand, source.css keyword.operator.ampersand",
+            "foreground": "var(pale_chestnut)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric, storage.type.numeric, source.scss keyword.other.unit, source.css keyword.other.unit",
+            "foreground": "var(monte_carlo)"
+        },
+        {
+            "name": "Boolean",
+            "scope": "constant.language.boolean",
+            "foreground": "var(pale_chestnut)"
+        },
+        {
+            "name": "Float",
+            "scope": "meta.number.float.decimal constant.numeric, punctuation.separator.decimal, markup.underline.link",
+            "foreground": "var(lavender)"
+        },
+
+        
+        {
+            "name": "Identifier",
+            "scope": "source.scss variable.declaration, source.scss punctuation.definition.variable, source.css variable.declaration, source.css punctuation.definition.variable, support.class.js, keyword.operator.word.new.js, variable.other.php, variable.parameter.php, variable.language.php, meta.function.type-declaration.haskell entity.name.function.haskell, source.haskell meta.name.haskell, entity.name.type.fsharp, punctuation.definition.variable.ruby, variable.other.readwrite.instance.ruby",
+            "foreground": "var(champagne)"
+        },
+        {
+            "name": "Function",
+            "scope": "keyword.declaration.function, source.scss support.function, source.css support.function, entity.name.function.c, entity.name.function.preprocessor.c, entity.name.function.c++, entity.name.function.preprocessor.c++, entity.name.function.python, variable.function.python support.function.builtin.python, entity.name.class.python, variable.annotation.python, meta.class.js entity.name.function.constructor.js, meta.class.js entity.name.function.js, meta.class.js entity.name.function.js punctuation.definition.js, support.function.classobj.php, storage.type.function.php, meta.function-call.php support.function, entity.name.function.cs, source.rust meta.function.rust entity.name.function.rust, support.function.rust, entity.name.function.clojure, entity.name.function.elm, source.elixir meta.function.public.elixir entity.name.function.public.elixir, source.java entity.name.function.java, source.sql support.function, source.ruby entity.name.function",
+            "foreground": "var(khaki)"
+        },
+
+        
+        {
+            "name": "Conditional",
+            "scope": "keyword.control.conditional",
+            "foreground": "var(pale_goldenrod)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Repeat",
+            "scope": "keyword.control.loop, source.scss keyword.control.flow.sass",
+            "foreground": "var(navajo)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Label",
+            "scope": "keyword.control.conditional.case, keyword.control.conditional.default, source.json meta.mapping.key.json string.quoted.double.json, source.json meta.mapping.key.json string.quoted.double.json punctuation.definition.string.begin.json, source.json meta.mapping.key.json string.quoted.double.json punctuation.definition.string.end.json",
+            "foreground": "var(bone)"
+        },
+        {
+            "name": "Operator",
+            "scope": "punctuation.definition, punctuation.section, punctuation.separator, punctuation.terminator - punctuation.definition.numeric.base - keyword.operator",
+            "foreground": "var(parchment)"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword, constant.other.keyword.clojure - keyword.operator - keyword.operator.word - keyword.control.flow.return.js - keyword.operator.logical",
+            "foreground": "var(pale_goldenrod)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Statement",
+            "scope": "entity.name.tag, punctuation.definition.list_item, source.shell.bash support.function, keyword.control.flow.return.js, keyword.declaration.function.python, keyword.control.flow.assert.python, keyword.operator.new.cs - keyword.control.import-export, source.sql keyword.other, source.sql keyword.operator.assignment",
+            "foreground": "var(hampton)",
+            "font_style": ""
+        },
+        {
+            "name": "Exception",
+            "scope": "keyword.control.exception.try, keyword.control.exception.catch, text.html.basic entity.name.tag.script, source.cs keyword.control.trycatch",
+            "foreground": "var(reef)",
+            "font_style": "bold"
+        },
+
+        {
+            "name": "PreProc",
+            "scope": "source.scss entity.other.pseudo-class, source.shell.bash punctuation.definition.variable, source.shell.bash variable.other.readwrite, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass, entity.other.pseudo-class.css, entity.other.pseudo-element.css, keyword.control.directive.css punctuation.definition.keyword.css, keyword.control.directive.css, comment.block.documentation.phpdoc.php keyword.other.phpdoc.php, source.haskell meta.preprocessor.c, source.haskell punctuation.definition.preprocessor.c, source.haskell meta.preprocessor.haskell",
+            "foreground": "var(peach)"
+        },
+        {
+            "name": "Include",
+            "scope": "keyword.control.import.include, source.scss keyword.control.at-rule.import.css punctuation.definition.keyword.css, source.scss keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass punctuation.definition.keyword.sass, keyword.control.import-export.js, keyword.control.import.python, keyword.control.import.from.python, keyword.other.use.php, meta.module-reference.ocaml, support.other.module.ocaml, entity.name.type.module.ocaml, keyword.control.import.haskell, namespace.open.fsharp keyword.fsharp, source.fsharp keyword.control.directive.fsharp, source.cs keyword.control.import.cs, source.go keyword.other.import.go, source.rust meta.path.rust, meta.declaration.module.elm keyword.other.elm, meta.import.elm keyword.other.elm, source.elm meta.import.elm keyword.import.elm, source.java meta.package-declaration.java keyword.other.package.java, source.java meta.import.java keyword.control.import.java",
+            "foreground": "var(calico)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Define",
+            "scope": "keyword.control.import.define, meta.preprocessor.macro.c entity.name.constant.preprocessor.c, meta.preprocessor.macro.c++ entity.name.constant.preprocessor.c++, storage.modifier.def.clojure, meta.module.elixir keyword.control.module.elixir, source.ruby keyword.declaration.class, source.ruby keyword.declaration.function, source.ruby keyword.control.block.end",
+            "foreground": "var(peach)"
+        },
+        {
+            "name": "Macro",
+            "scope": "support.macro.rust, source.ruby keyword.other.special-method",
+            "foreground": "var(peach)",
+            "font_style": "bold"
+        },
+        {
+            "name": "PreCondit",
+            "scope": "keyword.control.import.c, meta.preprocessor.c, keyword.control.import.c++, meta.preprocessor.c++",
+            "foreground": "var(calico)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Type",
+            "scope": "support.type, entity.other.attribute-name, storage.type, support.class.builtin, source.scss entity.other, constant.other.haskell, source.haskell meta.import.haskell support.other.module.haskell, source.haskell meta.declaration.module.haskell entity.name.namespace.haskell, abstract.definition.fsharp entity.name.type.fsharp, source.elixir entity.name.type, source.java support.class.java, entity.name.class.ruby, entity.other.inherited-class.ruby, support.class.ruby",
+            "foreground": "var(tan)",
+            "font_style": "bold"
+        },
+        {
+            "name": "StorageClass",
+            "scope": "storage.modifier, support.type.property-name, abstract.definition.fsharp keyword.fsharp, keyword.declaration",
+            "foreground": "var(reef)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Structure",
+            "scope": "keyword.declaration.enum, keyword.declaration.struct, keyword.declaration.union, variable.language.this.js, keyword.declaration.type.haskell",
+            "foreground": "var(goldenrod)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Special",
+            "scope": "constant.character.escape, punctuation.section.interpolation, source.scss keyword.other.important, source.css keyword.other.important, source.scss support.type, source.css support.type, text.html.basic punctuation.definition.entity.html, text.html.basic constant.character.entity.named, text.html.basic punctuation.terminator.entity.html, entity.other.custom-property.css, variable.function.clojure",
+            "foreground": "var(stark)"
+        },
+        {
+            "name": "SpecialComment",
+            "scope": "variable.annotation",
+            "foreground": "var(amulet)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Delimiter",
+            "scope": "markup.heading punctuation.definition.heading, punctuation.definition.raw.begin, punctuation.definition.raw.end",
+            "foreground": "var(gray)"
+        },
+        {
+            "name": "Title",
+            "scope": "entity.name.section.markdown",
+            "foreground": "var(gallery)",
+            "font_style": "bold"
+        },
+
+        // Overrides for things that aren't working well.
+        {
+            "name": "Overrides",
+            "scope": "keyword.operator.logical",
+            "foreground": "var(fg)",
+            "font_style": "none"
+        },
+
+
+    //  Typedef    A typedef
+
+    //  SpecialChar    special character in a constant
+    //  Debug      debugging statements
+
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "var(white)",
+            "background": "var(oriental_pink)"
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(white)",
+            "background": "var(calico)"
+        },
+        {
+            "name": "markup bold",
+            "scope": "markup.bold",
+            "font_style": "bold"
+        },
+        {
+            "name": "markup italic",
+            "scope": "markup.italic",
+            "font_style": "italic"
+        },
+        {
+            "name": "markup underline",
+            "scope": "meta.link.inline.description.markdown",
+            "font_style": "underline"
+        },
+        {
+            "name": "markup bold/italic",
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "markup bold/underline",
+            "scope": "markup.underline markup.bold | markup.bold markup.underline",
+            "font_style": "bold underline"
+        },
+        {
+            "name": "markup italic/underline",
+            "scope": "markup.underline markup.italic | markup.italic markup.underline",
+            "font_style": "italic underline"
+        },
+        {
+            "name": "markup bold/italic/underline",
+            "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
+            "font_style": "bold italic underline"
+        },
+        
+        {
+            "name": "diff.header",
+            "scope": "meta.diff, meta.diff.header",
+            "foreground": "var(hampton)"
+        },
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(stark)"
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(champagne)",
+            "font_style": "bold"
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "foreground": "var(peach)"
+        },
+        {
+            "scope": "message.error",
+            "foreground": "var(oriental_pink)"
+        },
+        {
+            "name": "SublimeLinter Warning",
+            "scope": "sublimelinter.mark.warning",
+            "foreground": "var(khaki)"
+        },
+        {
+            "name": "SublimeLinter Gutter Mark",
+            "scope": "sublimelinter.gutter-mark",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "SublimeLinter Error",
+            "scope": "sublimelinter.mark.error",
+            "foreground": "var(marsala)"
+        }
+        // {
+        //     "scope": "diff.deleted",
+        //     "foreground": "var(stark)",
+        // },
+        // {
+        //     "scope": "diff.deleted.char",
+        //     "background": "var(coral)",
+        //     "foreground": "#000",
+        // },
+        // {
+        //     "scope": "diff.inserted",
+        //     "background": "var(viridian)",
+        //     "foreground_adjust": "l(+ 20%)"
+        // },
+        // {
+        //     "scope": "diff.inserted.char",
+        //     "background": "var(khaki)",
+        //     "foreground": "#000"
+        // },
+    ]
+}
