@@ -16,6 +16,7 @@
         "calico": "#dfaf8f",
         "pale_chestnut": "#dca3a3",
         "oriental_pink": "#cc9393",
+        "marsala": "#994c4c",
         "peach": "#ffcfaf",
         "navajo": "#ffd7a7",
         "pale_goldenrod": "#f0dfaf",
@@ -305,6 +306,21 @@
             "scope": "message.error",
             "foreground": "var(oriental_pink)"
         },
+        {
+            "name": "SublimeLinter Warning",
+            "scope": "sublimelinter.mark.warning",
+            "foreground": "var(khaki)"
+        },
+        {
+            "name": "SublimeLinter Gutter Mark",
+            "scope": "sublimelinter.gutter-mark",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "SublimeLinter Error",
+            "scope": "sublimelinter.mark.error",
+            "foreground": "var(marsala)"
+        }
         // {
         //     "scope": "diff.deleted",
         //     "foreground": "var(stark)",
