@@ -5,19 +5,19 @@ Zenburn is a low-contrast color scheme. It’s easy for your eyes and designed t
 Ported to CSS, TextMate, iTerm2, Sublime Text, and Xcode.
 
 <p align="center">
-  <img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/full.png" alt="Zenburn Full" />
+  <img src="https://github.com/colinta/zenburn/raw/main/screenshots/full.png" alt="Zenburn Full" />
 </p>
 <p align="center">
-  <img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/css.png" alt="Zenburn CSS" />
+  <img src="https://github.com/colinta/zenburn/raw/main/screenshots/css.png" alt="Zenburn CSS" />
 </p>
 <p align="center">
-  <img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/html.png" alt="Zenburn HTML" />
+  <img src="https://github.com/colinta/zenburn/raw/main/screenshots/html.png" alt="Zenburn HTML" />
 </p>
 <p align="center">
-  <img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/python.png" alt="Zenburn Python" />
+  <img src="https://github.com/colinta/zenburn/raw/main/screenshots/python.png" alt="Zenburn Python" />
 </p>
 <p align="center">
-  <img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/ruby.png" alt="Zenburn Ruby" />
+  <img src="https://github.com/colinta/zenburn/raw/main/screenshots/ruby.png" alt="Zenburn Ruby" />
 </p>
 
 ### No:
@@ -44,22 +44,22 @@ To install it, use [Package Control](https://packagecontrol.io/packages/zenburn)
 
 ### Screenshots
 
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/jsx.png" alt="jsx" /></p>
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/scss.png" alt="scss" /></p>
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/php.png" alt="php" /></p>
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/golang.png" alt="golang" /></p>
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/clojure.png" alt="clojure" /></p>
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/typescript.png" alt="typescript" /></p>
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/c.png" alt="c" /></p>
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/cpp.png" alt="cpp" /></p>
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/elixir.png" alt="elixir" /></p>
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/elm.png" alt="elm" /></p>
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/fsharp.png" alt="fsharp" /></p>
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/haskell.png" alt="haskell" /></p>
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/java.png" alt="java" /></p>
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/ocaml.png" alt="ocaml" /></p>
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/python.png" alt="python" /></p>
-<p align="center"><img src="https://github.com/ryanolsonx/zenburn/raw/revamp-sublime-text/screenshots/rust.png" alt="rust" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/jsx.png" alt="jsx" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/scss.png" alt="scss" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/php.png" alt="php" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/golang.png" alt="golang" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/clojure.png" alt="clojure" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/typescript.png" alt="typescript" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/c.png" alt="c" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/cpp.png" alt="cpp" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/elixir.png" alt="elixir" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/elm.png" alt="elm" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/fsharp.png" alt="fsharp" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/haskell.png" alt="haskell" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/java.png" alt="java" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/ocaml.png" alt="ocaml" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/python.png" alt="python" /></p>
+<p align="center"><img src="https://github.com/colinta/zenburn/raw/main/screenshots/rust.png" alt="rust" /></p>
 
 ## iTerm2
 
