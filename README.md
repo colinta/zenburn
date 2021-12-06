@@ -40,3 +40,7 @@ cp zenburn.xccolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes
 ```
 
 ![Zenburn Xcode Demo](http://media.colinta.com/zenburn/xcode.png "Zenburn Xcode Demo")
+
+# Apple Terminal
+
+###### zenburn.terminal
