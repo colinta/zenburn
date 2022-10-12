@@ -93,19 +93,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Directive</string>
-			<key>scope</key>
-			<string>keyword.other.directive</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#DEDEDE</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Line-number directives</string>
 			<key>scope</key>
 			<string>keyword.other.directive.line-number</string>
@@ -124,6 +111,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FF8080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>User-defined constant</string>
+			<key>scope</key>
+			<string>constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CC9495</string>
 			</dict>
 		</dict>
 		<dict>
@@ -170,17 +168,6 @@
 				<string>bold</string>
 				<key>foreground</key>
 				<string>#D6D6AE</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>User-defined constant</string>
-			<key>scope</key>
-			<string>constant.character, constant.other</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CC9495</string>
 			</dict>
 		</dict>
 		<dict>
@@ -286,14 +273,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Storage</string>
-			<key>scope</key>
-			<string>storage</string>
-			<key>settings</key>
-			<dict />
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Type name</string>
 			<key>scope</key>
 			<string>entity.name.type , entity.other</string>
@@ -334,15 +313,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#F4A020</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function argument</string>
-			<key>scope</key>
-			<string>variable.parameter</string>
-			<key>settings</key>
-			<dict>
 			</dict>
 		</dict>
 		<dict>
@@ -685,59 +655,181 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>markdown heading</string>
+			<string>links</string>
 			<key>scope</key>
-			<string>markup.heading.markdown,punctuation.definition.heading</string>
+			<string>markup.heading</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>links</string>
+			<key>scope</key>
+			<string>markup.heading.1</string>
+			<key>settings</key>
+			<dict>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#E8DE9B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>links</string>
+			<key>scope</key>
+			<string>markup.heading.2</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D7CD8F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>links</string>
+			<key>scope</key>
+			<string>markup.heading.3</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C5BC83</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>links</string>
+			<key>scope</key>
+			<string>markup.heading.4</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B3AB77</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>links</string>
+			<key>scope</key>
+			<string>markup.heading.5</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A0996B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>links</string>
+			<key>scope</key>
+			<string>markup.heading.6</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8F895F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markup underline</string>
+			<key>scope</key>
+			<string>markup.underline</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markup italic</string>
+			<key>scope</key>
+			<string>markup.italic</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markdown links</string>
+			<key>scope</key>
+			<string>markup.underline.link</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4080A0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markup bold</string>
+			<key>scope</key>
+			<string>markup.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown link names</string>
+			<key>scope</key>
+			<string>meta.link.reference, meta.link.inline</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CC9495</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DDB700</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>markdown list</string>
 			<key>scope</key>
-			<string>markup.list</string>
+			<string>punctuation.definition.list_item.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Gutter Mark</string>
+			<key>scope</key>
+			<string>sublimelinter.gutter-mark</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DEDEDE</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
-	<dict>
-            <key>name</key>
-            <string>SublimeLinter Warning</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#DDB700</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimeLinter Error</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#D02000</string>
-            </dict>
-        </dict></array>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Error</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.error</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D02000</string>
+			</dict>
+		</dict>
+	</array>
 	<key>uuid</key>
 	<string>A34A7407-68B9-48E5-883E-E551F7561026</string>
 </dict>
