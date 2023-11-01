@@ -1,0 +1,27 @@
+{
+  "name": "zenburn",
+  "publisher": "Colin T.A. Gray",
+  "license": "MIT",
+  "displayName": "Zenburn by colinta",
+  "description": "Zenburn color scheme",
+  "version": "2.11.0",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "keywords": [
+    "zenburn",
+    "colinta"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Zenburn by colinta",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Zenburn-color-theme.json"
+      }
+    ]
+  }
+}

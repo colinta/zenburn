@@ -1,0 +1,12 @@
+{
+	"tokenColors": "./zenburn.tmTheme",
+	"colors": {
+		"editor.background": "#393939",
+		"editorCursor.foreground": "#D6D6D6",
+		"editor.foreground": "#DEDEDE",
+		"editorWhitespace.foreground": "#A5A5A552",
+		"editor.lineHighlightBackground": "#303030",
+		"editor.selectionBackground": "#8383839C"
+	},
+	"name": "Zenburn"
+}
