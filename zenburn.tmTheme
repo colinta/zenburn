@@ -12,10 +12,14 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#393939</string>
+				<string>#3F3F3F</string>
 				<key>caret</key>
 				<string>#D6D6D6</string>
 				<key>foreground</key>
+				<string>#DEDEDE</string>
+				<key>gutter</key>
+				<string>#3F3F3F</string>
+				<key>gutterForeground</key>
 				<string>#DEDEDE</string>
 				<key>invisibles</key>
 				<string>#A5A5A552</string>
@@ -23,10 +27,6 @@
 				<string>#303030</string>
 				<key>selection</key>
 				<string>#8383839C</string>
-				<key>gutter</key>
-				<string>#393939</string>
-				<key>gutterForeground</key>
-				<string>#DEDEDE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -312,7 +312,7 @@
 			<key>name</key>
 			<string>Class type name</string>
 			<key>scope</key>
-			<string>entity.name.type , entity.name.type.class , entity.other.attribute-name.class.css , support.class , entity.name.class</string>
+			<string>entity.name.type , entity.name.type.class , entity.other.attribute-name.class.css , entity.name.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -504,7 +504,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#393939</string>
+				<string>#3F3F3F</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
@@ -530,7 +530,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#393939</string>
+				<string>#3F3F3F</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
@@ -545,7 +545,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#393939</string>
+				<string>#3F3F3F</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
@@ -560,7 +560,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#393939</string>
+				<string>#3F3F3F</string>
 				<key>foreground</key>
 				<string>#8CD0D3</string>
 			</dict>
@@ -573,7 +573,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#393939</string>
+				<string>#3F3F3F</string>
 				<key>foreground</key>
 				<string>#60B38A</string>
 			</dict>
@@ -586,7 +586,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#393939</string>
+				<string>#3F3F3F</string>
 				<key>foreground</key>
 				<string>#CA7172</string>
 			</dict>
