@@ -77,22 +77,11 @@
 			<key>name</key>
 			<string>embedded ruby in string delimiters</string>
 			<key>scope</key>
-			<string>punctuation.section.embedded</string>
+			<string>punctuation.section.embedded, punctuation.section.interpolation</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#898989</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>embedded ruby in string</string>
-			<key>scope</key>
-			<string>source.ruby.embedded</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D58684</string>
 			</dict>
 		</dict>
 		<dict>
@@ -369,7 +358,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>php function</string>
+			<string>function</string>
 			<key>scope</key>
 			<string>support.function.construct</string>
 			<key>settings</key>
