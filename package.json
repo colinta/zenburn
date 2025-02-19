@@ -3,11 +3,14 @@
   "description": "Zenburn color scheme.",
   "author": "Colin T.A. Gray (colinta)",
   "details": "https://github.com/colinta/zenburn",
-  "labels": ["color scheme", "theme"],
+  "labels": [
+    "color scheme",
+    "theme"
+  ],
   "releases": [
     {
-      "sublime_text": ">=3000",
-      "details": "https://github.com/colinta/zenburn/tags"
+      "tags": true,
+      "sublime_text": ">=3000"
     }
   ]
 }
